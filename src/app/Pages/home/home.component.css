@@ -1,0 +1,149 @@
+
+@media only screen and (min-width: 768px){
+    body{
+        background-color: lightblue;
+    }
+    
+}
+.banner
+{
+/* background-image: url(../../../assets/img/img1.jpg); */
+height: 650px;
+background-position: center top;
+background-size: cover;
+
+}
+
+.banner h1{
+color: rgb(253, 252, 252);
+font-size: 50px;
+font-weight: bold;
+top: 13%;
+position: absolute;
+left: 72%;
+}
+ .span{
+    color: black;
+ }
+
+/* .info{
+    background-image: url("../../../assets/img/img1.jpg");
+    background-position: center top;
+    background-size: cover;
+    height: 356px;
+    width: 477px;
+    position: absolute;
+} */
+#carousel, .carousel-inner,.carousel-item{
+    height: 640px;
+}
+#ParaImg{
+   
+    object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
+.tab-group{
+    height: 100%;
+  }
+
+.card{
+    border: none;
+    margin-top: 90px;
+    margin-left: 41px;
+}
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    font-weight: bold;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: darkblue;
+
+
+}
+
+.btn-rounded {
+    border-radius: 30px !important;
+}
+.btn-primary {
+    border: none;
+    background: #eb2328;
+    color: #fff;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+.btn {
+    transition: all 300ms ease-in-out;
+    /* border-radius: 0px; */
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    /* margin-bottom: 0; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    /* -webkit-user-select: none; */
+    user-select: none;
+    background-image: none;
+    border: transparent;
+    border-radius: 100px;
+}
+
+.btn:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+}
+.nav-pills-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #45b649;
+    background: #fff;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
